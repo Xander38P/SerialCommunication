@@ -322,7 +322,7 @@ namespace SerialCommunication
                 if (serialPortArduino != null && serialPortArduino.IsOpen)
                 {
                     // 2. Haal de waarde op en maak de commandostring.
-                    // Met het $-teken (string interpolation) kunnen we de waarde direct in de tekst plakken.
+                    // Met het $-teken (string interpolation) kunnen we de waardedirect in de tekst plakken.
                     string commando = $"set pwm11 {trackBarPWM11.Value}";
 
                     // 3. Verstuur de commandostring
